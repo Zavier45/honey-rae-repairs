@@ -3,3 +3,9 @@ export const getClientUsers = () => {
     response.json()
   );
 };
+
+export const getNonClientUser = () => {
+  return fetch("http://localhost:1338/users?isStaff=true").then((response) =>
+    response.json()
+  );
+};
