@@ -21,7 +21,8 @@
   }
 
   .ticket-info {
-    color: var(--outline);
+    color: navy;
+    font-weight: 600;
     font-family: "Roboto", sans-serif;
   }
 
