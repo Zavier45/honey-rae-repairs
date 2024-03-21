@@ -17,7 +17,7 @@
   
   .customer {
     background-color: var(--white);
-    border: 1px solid var(--outline);
+    border: 1px solid black;
     border-radius: 0.5rem;
     padding: 1rem;
   }
@@ -31,5 +31,5 @@
     font-size: larger;
     font-weight: 700;
     line-height: 3rem;
-    color: var(--primary);
+    color: black;
   }

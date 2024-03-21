@@ -13,8 +13,8 @@ export const EmployeeList = () => {
 
   return (
     <div className="employees">
-      {employees.map((employeeObj) => {
-        return <Employees employeeObj={employeeObj} />;
+      {employees.map((employeeObj, index) => {
+        return <Employees employeeObj={employeeObj} index={index} />;
       })}
     </div>
   );
